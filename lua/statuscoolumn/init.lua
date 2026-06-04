@@ -236,9 +236,11 @@ statuscolumn.render = function()
     }),
 
     -- render border
-    statuscolumn.config.border.enabled and statuscolumn.border({
-        text = statuscolumn.config.border.text,
-      }) or "",
+    statuscolumn.config.border.enabled
+        and statuscolumn.border({
+          text = statuscolumn.config.border.text,
+        })
+      or "",
   })
 end
 

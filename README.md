@@ -43,8 +43,8 @@ require("statuscoolumn").setup({
   fold = {
     enabled = true,
     text = {
-      opened = "",
-      closed = "",
+      opened = "",
+      closed = "",
       scope = " ",
     },
   },
